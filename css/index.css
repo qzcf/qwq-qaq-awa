@@ -35,3 +35,8 @@ div.am-badge:hover, div.tag span.lfe-caption:hover, div.difficulty span.lfe-capt
   transform: translateY(-1px);
   box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
+div.hint {
+  font-size: 0.5em;
+  border-width: 1px;
+  border-color: black;
+}
