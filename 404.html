@@ -24,13 +24,23 @@
 	a {
 		color:white;
 	}
+	input {
+		width:200px;
+		height:50px;
+		color:#FF0000;
+		font-weight:bold;
+		font-size:24px;
+	}
 </style>
+<script>
+	function jump(){
+		history.go(-1);
+	}
+</script>
 </head>
 
 <body>
 <h3>404，您请求的文件不存在!!!</h3>
-<p><a href="/">回到首页</a></p>
-<p><a href="JavaScript:show();">回到上一页</a></p>
-<script src="/script/jump.js"></script>
+<input type="button" value="返回上一步" onclick="jump()"/>
 </body>
 </html>
